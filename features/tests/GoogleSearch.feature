@@ -3,6 +3,6 @@ Feature:
 
 Scenario:
 	Given user is on Google.com home_page
-	When user input "Fuck" to the search box
+	When user input "BDD" to the search box
 	And click Search Button
-	Then user see wiki_description of "Fuck" on first search_result_page
+	Then user see wiki_description of "BDD" on first search_result_page
